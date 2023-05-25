@@ -1,0 +1,100 @@
+11 may:
+1)split numbers:              
+	#include<stdio.h>
+	int main()
+	{
+    	int n = 123;
+    	while(n>0)
+   	 {
+    		int mod = n%10;
+    		printf("%d\n",mod);
+    		n = n / 10;
+    	 }
+    	return 0;
+	} 
+
+output:
+     /tmp/C9VpQskCFb.o
+	3
+	2
+	1
+
+2)sum of digits:
+        int main()
+	{
+    	int n = 123;
+    	int sum = 0;
+    	while(n>0)
+    	{
+    		int mod = n%10;
+    		sum = sum + mod;
+    		n = n / 10;
+    	}
+    	printf("sum of 123 is: %d",sum);
+    	return 0;
+	}	
+output:
+	sum of 123 is: 6
+
+3)absoulte value
+	#include<stdio.h>
+
+	int main()
+	{
+    	int num;
+    	scanf("%d", &num);
+
+   	if (num < 0)
+        	num = -num; 
+    	printf("ABSOLUTE VALUE IS:%d",num);
+    
+
+    	return 0;
+	}
+
+4) REVERSE NUMBER:
+	#include<stdio.h>
+
+	int main()
+	{
+    	int num;
+    	scanf("%d", &num);
+    	int ans = 0 ;
+    	while(num>0)
+    	{
+    		int mod = num % 10;
+    		ans = ans * 10 + mod;
+    		num = num /10;
+    
+    	}
+    	printf("REVERSE VALUSE IS:%d",ans);
+    
+    	return 0;
+	}
+OUTPUT:
+	/tmp/C9VpQskCFb.o
+	123
+	REVERSE VALUSE IS:321
+
+5) PALINDROME:
+	#include<stdio.h>
+
+	int main()
+	{
+    	int num;
+    	scanf("%d", &num);
+    	int th,ans = 0 ;
+    	th  = num ;
+    	while(num>0)
+    	{
+    		int mod = num % 10;
+    		ans = ans * 10 + mod;
+    		num = num /10;
+    
+    	}
+    	if (ans == th)
+        	printf("palindrome number");
+    	else
+        	printf("not palindrome");
+    	return 0;
+	}
