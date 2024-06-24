@@ -1,0 +1,46 @@
+Last login: Mon Jun 24 09:51:39 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+C02G9689MD6M:~ thoufik.m$ cd documents
+C02G9689MD6M:documents thoufik.m$ python3 LinearRegression.py
+   experience  test_score(out of 10)  interview_score(out of 10)  salary($)
+0         NaN                    8.0                           9      50000
+1         NaN                    8.0                           6      45000
+2         5.0                    6.0                           7      60000
+3         2.0                   10.0                          10      65000
+4         7.0                    9.0                           6      70000
+5         3.0                    7.0                          10      62000
+6        10.0                    NaN                           7      72000
+7        11.0                    7.0                           8      80000
+   experience  test_score(out of 10)  interview_score(out of 10)  salary($)
+0         0.0                    8.0                           9      50000
+1         0.0                    8.0                           6      45000
+2         5.0                    6.0                           7      60000
+3         2.0                   10.0                          10      65000
+4         7.0                    9.0                           6      70000
+5         3.0                    7.0                          10      62000
+6        10.0                    NaN                           7      72000
+7        11.0                    7.0                           8      80000
+test_score: 7
+   experience  test_score(out of 10)  interview_score(out of 10)  salary($)
+0         0.0                    8.0                           9      50000
+1         0.0                    8.0                           6      45000
+2         5.0                    6.0                           7      60000
+3         2.0                   10.0                          10      65000
+4         7.0                    9.0                           6      70000
+5         3.0                    7.0                          10      62000
+6        10.0                    7.0                           7      72000
+7        11.0                    7.0                           8      80000
+LinearRegression()
+/Users/thoufik.m/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:493: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+[53713.86677124]
+/Users/thoufik.m/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:493: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+[52090.46734071]
+/Users/thoufik.m/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:493: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+[79866.63483999]
+C02G9689MD6M:documents thoufik.m$ 
